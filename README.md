@@ -1,5 +1,5 @@
-# smallest-pong
-My try at making the smallest pong i could in C++
+# smol-pong
+My try at making the smallest pong i could in C++ with my current skill and knowledge
 
 The code is horrible and its really undreadable i know but its also very small (around 10KB)
 It also only works for **Linux** because i used X11
