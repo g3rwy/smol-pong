@@ -10,10 +10,8 @@ You start game by pressing Space and the game is for two players (Up and Down, W
 # Compile
 idk why would you like to compile it but bascially just compile with
 
-  `g++ pong.cpp -o pong -O2 -lX11`
-then to make it smaller you can
-
-  `strip pong`
+  `g++ pong.cpp -o pong -Os -s -lX11`
+  
 and at the end to make it even smaller i used upx to compress the binary
 
   `upx pong` (can use -9 or -lzma)
